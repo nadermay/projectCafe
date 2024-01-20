@@ -1,0 +1,62 @@
+/*! reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*! end of reset */
+
+/** general **/
+html,
+body {
+  font-family: sans-serif , Arial;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/** end general **/
+
+/** header **/
+
+.header {
+  background: #333;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.header nav h1 {
+  padding: 20px;
+  float: left;
+  color: white;
+  margin-bottom: 0;
+}
+.header nav h1 a {
+  color: white;
+}
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+.header nav ul li {
+    float: left;
+}
+.header nav ul li a {
+    color: white;
+    display: block;
+   padding: 20px ;
+}
+
+.header nav ul li a :hover {
+    background: #444;
+}
+.active{background: #444;}
