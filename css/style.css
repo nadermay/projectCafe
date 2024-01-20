@@ -10,7 +10,7 @@
 /** general **/
 html,
 body {
-  font-family: sans-serif , Arial;
+  font-family: sans-serif, Arial;
 }
 
 h1,
@@ -22,6 +22,29 @@ h3 {
 a {
   text-decoration: none;
   color: #333;
+}
+p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 15px 25px;
+  font-weight: 700px;
+  font-size: 14px;
+}
+.btn-primary {
+  background: white;
+  color: #222;
+}
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /** end general **/
@@ -44,19 +67,51 @@ a {
   color: white;
 }
 .header nav ul {
-    float: right;
-    list-style: none;
+  float: right;
+  list-style: none;
 }
 .header nav ul li {
-    float: left;
+  float: left;
 }
 .header nav ul li a {
-    color: white;
-    display: block;
-   padding: 20px ;
+  color: white;
+  display: block;
+  padding: 20px;
 }
 
 .header nav ul li a :hover {
-    background: #444;
+  background: #444;
 }
-.active{background: #444;}
+.active {
+  background: #444;
+}
+
+/**vp **/
+
+.vp {
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center / cover;
+}
+
+.vp-content {
+  padding-top: 150px;
+  max-width: 500px;
+  color: white;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.vp-content h1 {
+  font-size: 50px;
+}
+.separator {
+  width: 100px;
+  height: 10px;
+  background: #111;
+  margin: 20px auto;
+}
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
