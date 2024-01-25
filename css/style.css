@@ -45,14 +45,14 @@ p {
   background: #222;
   color: white;
 }
-.btn-dark{
+.btn-dark {
   background: #222;
   color: white;
 }
-.btn-dark:hover{
+.btn-dark:hover {
   background: white;
   color: #222;
-  border: 1px solid #222; 
+  border: 1px solid #222;
 }
 .my-10 {
   margin-top: 10px;
@@ -63,6 +63,10 @@ p {
   margin-bottom: 20px;
 }
 
+.underline {
+  padding-bottom: 10px;
+  border-bottom: #111 1px solid;
+}
 
 /** end general **/
 
@@ -149,20 +153,20 @@ p {
 .feature {
   float: left;
   width: 50%;
-  }
+}
 /* *person* */
-.person{
-  height: 400px ;
-    background: url(../images/cafe3.jpg) center center /cover;
+.person {
+  height: 400px;
+  background: url(../images/cafe3.jpg) center center / cover;
 }
 /* *reservation* */
 
-.reservation{
+.reservation {
   padding: 100px 0;
-text-align: center;
+  text-align: center;
 }
 
-footer{
+footer {
   background: #222;
   color: white;
   padding: 30px 0;
@@ -172,4 +176,38 @@ footer{
 footer p {
   margin-bottom: 0;
   font-size: large;
+}
+
+/* *where* */
+
+.where {
+  padding: 180px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+.where-img {
+  float: left;
+  width: 40%;
+  border: whitesmoke 1px solid;
+  border-radius: 10px;
+}
+.where-text {
+  float: right;
+  width: 50%;
+}
+
+.chip {
+  display: inline-block;
+  background: #333;
+  border-radius: 100%;
+  color: white;
+  width: 26px;
+  text-align: center;
+}
+
+.chip-purple {
+  background: #a0006e;
+}
+.chip-brown {
+  background: #6e491e;
 }
