@@ -11,6 +11,7 @@
 html,
 body {
   font-family: sans-serif, Arial;
+  color: #222;
 }
 
 h1,
@@ -115,3 +116,23 @@ p {
   letter-spacing: 0.5px;
   line-height: 1.9em;
 }
+
+/* *section 2 **/
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.features {
+  padding: 100px 0;
+  overflow: auto;
+  text-align: center;
+}
+.feature {
+  float: left;
+  width: 50%;
+  }
+
+
