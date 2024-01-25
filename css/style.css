@@ -134,5 +134,9 @@ p {
   float: left;
   width: 50%;
   }
-
+/* *person* */
+.person{
+  height: 400px ;
+    background: url(../images/cafe3.jpg) center center /cover;
+}
 
